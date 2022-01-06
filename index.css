@@ -1,0 +1,15 @@
+a {
+    color: rgb(79, 167, 201);
+    text-decoration: none;
+}
+body {
+    background-color: rgb(31, 69, 62);
+}
+ul {
+    color: rgb(179, 173, 173);
+}
+
+p{
+    font-size: larger;
+    margin: 0%;
+}
