@@ -1,7 +1,6 @@
-*{
+* {
     font-size: large;
 }
-
 
 a {
     color: rgb(79, 167, 201);
@@ -14,12 +13,39 @@ ul {
     color: rgb(179, 173, 173);
 }
 
-p{
+p {
     font-size: larger;
     margin: 0%;
 }
 
-#random{
+#random {
     background-color: hsl(169, 38%, 30%);
     color: white;
+}
+
+#search {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 15%;
+}    
+
+
+input[type="text"] {
+    width: 30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+}
+
+
+input[type="text"]:focus {
+    width: 70%;
+}
+
+
+
+li {
+    display: list-item;
 }
