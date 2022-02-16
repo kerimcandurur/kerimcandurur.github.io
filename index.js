@@ -9,7 +9,7 @@ function random() {
 function search() {
     let input = document.getElementById("search").value;
     input = input.toLowerCase();
-    let x = document.getElementsByTagName("li");
+    let x = document.getElementsByTagName("ul");
 
     for (i = 0; i < x.length; i++) {
         if (!x[i].innerHTML.toLowerCase().includes(input)) {
