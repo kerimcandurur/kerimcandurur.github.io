@@ -16,6 +16,13 @@ function search() {
 			x[i].style.display = 'none'
 		} else {
 			x[i].style.display = 'list-item'
+			for (j = 0; j < x[i].children.length; j++) {
+				if (!x[i].children[j].innerHTML.toLowerCase().includes(input)) {
+					x[i].children[j].style.display = 'none'
+				} else {
+					x[i].children[j].style.display = 'list-item'
+				}
+			}
 		}
 	}
 }
