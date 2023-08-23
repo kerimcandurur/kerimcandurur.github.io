@@ -1,51 +1,47 @@
 * {
-    font-size: large;
+	font-size: large;
 }
 
 a {
-    color: rgb(79, 167, 201);
-    text-decoration: none;
+	color: rgb(79, 167, 201);
+	text-decoration: none;
 }
 body {
-    background-color: rgb(31, 69, 62);
+	background-color: rgb(31, 69, 62);
 }
 ul {
-    color: rgb(179, 173, 173);
+	color: rgb(179, 173, 173);
 }
 
 p {
-    font-size: larger;
-    margin: 0%;
+	font-size: larger;
+	margin: 0%;
 }
 
 #random {
-    background-color: hsl(169, 38%, 30%);
-    color: white;
+	background-color: hsl(169, 38%, 30%);
+	color: white;
 }
 
 #search {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 15px;
-    border-radius: 10px;
-    margin-left: 15%;
-}    
-
-
-input[type="text"] {
-    width: 30%;
-    -webkit-transition: width 0.15s ease-in-out;
-    transition: width 0.15s ease-in-out;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 15px;
+	border-radius: 10px;
+	margin-left: 15%;
 }
 
-
-input[type="text"]:focus {
-    width: 70%;
+input[type='text'] {
+	width: 30%;
+	-webkit-transition: width 0.15s ease-in-out;
+	transition: width 0.15s ease-in-out;
 }
 
-
+input[type='text']:focus {
+	width: 70%;
+}
 
 li {
-    display: list-item;
+	display: list-item;
 }
