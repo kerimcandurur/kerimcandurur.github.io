@@ -26,3 +26,10 @@ function search() {
 		}
 	}
 }
+
+document.addEventListener('keydown', (event) => {
+	if (event.key === '/') {
+		event.preventDefault()
+		document.getElementById('search').focus()
+	}
+})
